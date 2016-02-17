@@ -1,0 +1,33 @@
+.comic-opacity {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: .8;
+	z-index: 99999;
+}
+
+.comic-hint {
+	position: absolute;
+    z-index: 999999;
+    background-image: url("../img/comic-ballon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 60px 30px 0px 30px;
+    font-size: 20px;
+}
+
+.comic-btn-hint {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    margin-top: 100px;
+    border-radius: 50%;
+	cursor: pointer;
+}
